@@ -1,6 +1,5 @@
 package sg.edu.rp.c346.id20020036.demodatabasecrud;
 
-import androidx.annotation.NonNull;
 
 import java.io.Serializable;
 
@@ -24,7 +23,6 @@ public class Note implements Serializable {
         this.noteContent = noteContent;
     }
 
-    @NonNull
     @Override
     public String toString()
     {return "ID: " + id + ", " + noteContent;}
