@@ -1,6 +1,4 @@
 package sg.edu.rp.c346.id20020036.demodatabasecrud;
-
-
 import java.io.Serializable;
 
 public class Note implements Serializable {
